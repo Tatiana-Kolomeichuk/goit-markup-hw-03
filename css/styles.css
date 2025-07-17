@@ -40,6 +40,7 @@ img {
     display: block;
 }
 
+
 /* HEADER */
 
 .logo {
@@ -79,24 +80,31 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404bbf;
 }
+
 .head .logo {
     margin-right: 76px;
 }
+
 .head {
     border-bottom: 1px solid #e7e9fc;
 
 }
+
 .header {
     display: flex;
     align-items: center;
-        padding: 0 15px;
+    padding: 0 15px;
+
+
 }
+
 .navigation-container {
     display: flex;
     margin-right: 332px;
@@ -112,16 +120,17 @@ img {
 
 .contacts-list {
     display: flex;
-    gap: 40px;}
+    gap: 40px;
+
+}
 
 /* HERO SECTION */
 
 .hero {
     background-color: #2e2f42;
     padding: 188px 0 188px;
-        display: flex;
-        text-align: center;
-
+    display: flex;
+    text-align: center;
 }
 
 .hero-title {
@@ -130,9 +139,8 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    text-align: center;
     max-width: 496px;
-        margin-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -143,11 +151,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 16px 32px;
-        border: none;
-        border-radius: 4px;
-        display: block;
-        min-width: 169px;
-        margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -167,7 +175,8 @@ img {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-        overflow: hidden;}
+    overflow: hidden;
+}
 
 .item-title {
     font-weight: 500;
@@ -182,7 +191,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 }
+
 .benefits-list {
     display: flex;
     gap: 24px;
@@ -199,7 +210,7 @@ img {
     background-color: #f4f4fd;
 }
 
-.team-title {
+.title {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -208,9 +219,9 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-}
 
 }
+
 .team-list-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
@@ -230,6 +241,7 @@ img {
 }
 
 /* PORTFOLIO */
+
 .portfolio-list-item .item-text {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -259,10 +271,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-     max-width: 264px;
- }
+    max-width: 264px;
+}
 
- .bottom .container .logo {
-     display: inline-block;
-     margin-bottom: 16px;
- }
+.bottom .container .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
